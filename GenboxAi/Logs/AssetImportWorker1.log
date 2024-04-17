@@ -1,0 +1,951 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreN' Language: 'en' Physical Memory: 15789 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Tigran/plugin
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52054
+Successfully changed project path to: C:/Users/Tigran/plugin
+C:/Users/Tigran/plugin
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2260] Host "[IP] 192.168.5.52 [Port] 0 [Flags] 2 [Guid] 1497898619 [EditorId] 1497898619 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C7AKGK5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2260] Host "[IP] 192.168.5.52 [Port] 0 [Flags] 2 [Guid] 1497898619 [EditorId] 1497898619 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C7AKGK5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 162.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Tigran/plugin/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5966 MB
+    Driver:   31.0.15.5161
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008523 seconds.
+- Loaded All Assemblies, in  1.132 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.309 seconds
+Domain Reload Profiling: 1440ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (261ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (695ms)
+		LoadAssemblies (102ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (693ms)
+			TypeCache.Refresh (691ms)
+				TypeCache.ScanAssembly (462ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (309ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (244ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (79ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tigran\plugin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tigran\plugin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.474 seconds
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.598 seconds
+Domain Reload Profiling: 3070ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (2220ms)
+		LoadAssemblies (1914ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (395ms)
+			TypeCache.Refresh (374ms)
+				TypeCache.ScanAssembly (307ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (599ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (427ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (95.7 KB). Loaded Objects now: 3694.
+Memory consumption went from 126.9 MB to 126.8 MB.
+Total: 3.835300 ms (FindLiveObjects: 0.374600 ms CreateObjectMapping: 0.161600 ms MarkObjects: 3.046300 ms  DeleteObjects: 0.251100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 80857.620884 seconds.
+  path: Assets/Genbox Ai Materials/green feild/green feild depth texture.png
+  artifactKey: Guid(daf0f428a9d7df848bc84b97ff1ed667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/green feild/green feild depth texture.png using Guid(daf0f428a9d7df848bc84b97ff1ed667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22988fc76cadcb867cd5f5cc88001fd5') in 0.083552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Genbox Ai Materials/green feild/green feild depth material.mat
+  artifactKey: Guid(e5b341150e6a4734f9297e23ac89ffa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/green feild/green feild depth material.mat using Guid(e5b341150e6a4734f9297e23ac89ffa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce19444c7a7af2eb6683561ba03d9fd0') in 1.104109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tigran\plugin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tigran\plugin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.430 seconds
+Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.825 seconds
+Domain Reload Profiling: 1252ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (825ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (367ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (67.4 KB). Loaded Objects now: 3739.
+Memory consumption went from 122.0 MB to 121.9 MB.
+Total: 3.319500 ms (FindLiveObjects: 0.341500 ms CreateObjectMapping: 0.287800 ms MarkObjects: 2.622100 ms  DeleteObjects: 0.066700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 159.002965 seconds.
+  path: Assets/Genbox Ai Materials/green feild/green feild depth texture.png
+  artifactKey: Guid(daf0f428a9d7df848bc84b97ff1ed667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/green feild/green feild depth texture.png using Guid(daf0f428a9d7df848bc84b97ff1ed667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0facca784d2188d14f8f261c19a44c4') in 0.057459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Genbox Ai Materials/green feild/green feild skybox material.mat
+  artifactKey: Guid(21c82818e9b15e44b8b64e13494dea61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/green feild/green feild skybox material.mat using Guid(21c82818e9b15e44b8b64e13494dea61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c883abed57ae1c14ae1a19355d5ba5bd') in 0.788830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 56.219216 seconds.
+  path: Assets/Genbox Ai Materials/green feild/green feild depth texture.png
+  artifactKey: Guid(daf0f428a9d7df848bc84b97ff1ed667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/green feild/green feild depth texture.png using Guid(daf0f428a9d7df848bc84b97ff1ed667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ec76546ad50ae0fd8720b1b2a59127') in 0.035330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Genbox Ai Materials/green feild/green feild skybox material.mat
+  artifactKey: Guid(21c82818e9b15e44b8b64e13494dea61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/green feild/green feild skybox material.mat using Guid(21c82818e9b15e44b8b64e13494dea61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61a843825504b44b07919b46a376063') in 0.456492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tigran\plugin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tigran\plugin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.416 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.827 seconds
+Domain Reload Profiling: 1241ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (264ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (827ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (365ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (67.4 KB). Loaded Objects now: 3742.
+Memory consumption went from 122.0 MB to 121.9 MB.
+Total: 3.365500 ms (FindLiveObjects: 0.381500 ms CreateObjectMapping: 0.170400 ms MarkObjects: 2.746300 ms  DeleteObjects: 0.065700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 154.097910 seconds.
+  path: Assets/Genbox Ai Materials/neon city/neon city depth texture.png
+  artifactKey: Guid(ce6e5442b6f93a445b7d21554c7d8cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/neon city/neon city depth texture.png using Guid(ce6e5442b6f93a445b7d21554c7d8cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350fba3838c389760fa513f77c25777b') in 0.068971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Genbox Ai Materials/neon city/neon city texture.png
+  artifactKey: Guid(b5da70b20a3a6f24fac317e7a80736b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/neon city/neon city texture.png using Guid(b5da70b20a3a6f24fac317e7a80736b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf0ca1f75b45c1d7db1d7b5a0f6a08d') in 0.941868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 165.243643 seconds.
+  path: Assets/Genbox Ai Materials/dvckjhfcj/dvckjhfcj depth texture.png
+  artifactKey: Guid(795d6b86b7f52c345a1369afb814f778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/dvckjhfcj/dvckjhfcj depth texture.png using Guid(795d6b86b7f52c345a1369afb814f778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08bb790a25902891de340b0b554e65d') in 0.064474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Genbox Ai Materials/dvckjhfcj/dvckjhfcj texture.png
+  artifactKey: Guid(6e3db8166cc34c143bbba4f3e2213a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/dvckjhfcj/dvckjhfcj texture.png using Guid(6e3db8166cc34c143bbba4f3e2213a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da86a50a6379e09e7d503e0f5699818') in 1.029495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tigran\plugin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tigran\plugin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.420 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.810 seconds
+Domain Reload Profiling: 1227ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (810ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (67.4 KB). Loaded Objects now: 3747.
+Memory consumption went from 122.1 MB to 122.0 MB.
+Total: 2.973800 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.081400 ms MarkObjects: 2.469400 ms  DeleteObjects: 0.064700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tigran\plugin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tigran\plugin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.424 seconds
+Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.836 seconds
+Domain Reload Profiling: 1258ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (206ms)
+		LoadAssemblies (270ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (837ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (362ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3205 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (67.4 KB). Loaded Objects now: 3750.
+Memory consumption went from 122.3 MB to 122.3 MB.
+Total: 3.301100 ms (FindLiveObjects: 0.408800 ms CreateObjectMapping: 0.097900 ms MarkObjects: 2.731900 ms  DeleteObjects: 0.061300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 154.187179 seconds.
+  path: Assets/Genbox Ai Materials/spaceship and nebula/spaceship and nebula depth texture.png
+  artifactKey: Guid(0578b95104b20bc4384cf92da722301c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/spaceship and nebula/spaceship and nebula depth texture.png using Guid(0578b95104b20bc4384cf92da722301c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5ddc7dace6b0b16d58afdf3f3bf117') in 0.136878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Genbox Ai Materials/spaceship and nebula/spaceship and nebula skybox material.mat
+  artifactKey: Guid(738468dfbcffcda40ac7f9e9983600ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/spaceship and nebula/spaceship and nebula skybox material.mat using Guid(738468dfbcffcda40ac7f9e9983600ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5a8984d7a69138826e65e2e4e22528') in 0.929330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tigran\plugin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tigran\plugin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.426 seconds
+Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.800 seconds
+Domain Reload Profiling: 1224ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (801ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (355ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (241ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (67.4 KB). Loaded Objects now: 3753.
+Memory consumption went from 122.1 MB to 122.0 MB.
+Total: 3.340900 ms (FindLiveObjects: 0.451800 ms CreateObjectMapping: 0.268000 ms MarkObjects: 2.548800 ms  DeleteObjects: 0.070600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 227.648387 seconds.
+  path: Assets/Genbox Ai Materials/Aterfall and sunset/Aterfall and sunset depth texture.png
+  artifactKey: Guid(9ebb4e52a816a9e4782b6a767a242240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/Aterfall and sunset/Aterfall and sunset depth texture.png using Guid(9ebb4e52a816a9e4782b6a767a242240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04857d725e5c209cdb5a59e6969c06a2') in 0.130619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Genbox Ai Materials/Aterfall and sunset/Aterfall and sunset skybox material.mat
+  artifactKey: Guid(6ed5c893ca7d9e3499520e6aa53f41a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/Aterfall and sunset/Aterfall and sunset skybox material.mat using Guid(6ed5c893ca7d9e3499520e6aa53f41a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceac7fc6d3cbd18b0c1e5bc8bcee9938') in 0.893252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 54.135260 seconds.
+  path: Assets/Genbox Ai Materials/sunset/sunset depth texture.png
+  artifactKey: Guid(44768bdd4655f3848912efdf9c171029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/sunset/sunset depth texture.png using Guid(44768bdd4655f3848912efdf9c171029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951301e1d334eb3ab343d52c376fb52b') in 0.033874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Genbox Ai Materials/sunset/sunset skybox material.mat
+  artifactKey: Guid(280aee2c55fd1e04d968f93f7d54d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/sunset/sunset skybox material.mat using Guid(280aee2c55fd1e04d968f93f7d54d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4e939675a34ef7f7f89db88ae6f654') in 0.945890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 124.887297 seconds.
+  path: Assets/Genbox Ai Materials/sunset/sunset depth texture.png
+  artifactKey: Guid(44768bdd4655f3848912efdf9c171029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/sunset/sunset depth texture.png using Guid(44768bdd4655f3848912efdf9c171029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5413f6e31e59f5232c4db897824de9a2') in 0.034962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Genbox Ai Materials/sunset/sunset skybox material.mat
+  artifactKey: Guid(280aee2c55fd1e04d968f93f7d54d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Genbox Ai Materials/sunset/sunset skybox material.mat using Guid(280aee2c55fd1e04d968f93f7d54d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a5936b0fbcd50d469e0bad41974b7b') in 0.523676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tigran\plugin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tigran\plugin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.426 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.820 seconds
+Domain Reload Profiling: 1244ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (820ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (359ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (67.4 KB). Loaded Objects now: 3756.
+Memory consumption went from 122.1 MB to 122.0 MB.
+Total: 3.350100 ms (FindLiveObjects: 0.372500 ms CreateObjectMapping: 0.124100 ms MarkObjects: 2.786700 ms  DeleteObjects: 0.065500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1551.538126 seconds.
+  path: Assets/GenboxAiSDK/Editor/BlockadeGUI.cs
+  artifactKey: Guid(8827acf45e9342641a54ab227cf2b538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Editor/BlockadeGUI.cs using Guid(8827acf45e9342641a54ab227cf2b538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6877fd3b9d62ca94dd394b66ac9c0259') in 0.004303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.111851 seconds.
+  path: Assets/GenboxAiSDK/Runtime/ApiRequests.cs
+  artifactKey: Guid(a8d82289669de6143b865c8ab5d8a988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/ApiRequests.cs using Guid(a8d82289669de6143b865c8ab5d8a988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca1bcf014278f5eaef3be169fcdb332') in 0.000914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001777 seconds.
+  path: Assets/GenboxAiSDK/Runtime/AssetUtils.cs
+  artifactKey: Guid(02e202da6ac7c4241b88471af7863e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/AssetUtils.cs using Guid(02e202da6ac7c4241b88471af7863e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3b25e7104f700bd6413129b6797fae') in 0.000624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002312 seconds.
+  path: Assets/GenboxAiSDK/Runtime/DemoCamera.cs
+  artifactKey: Guid(387d38be7b7424643a29db956f58439b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/DemoCamera.cs using Guid(387d38be7b7424643a29db956f58439b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8876586ca46fdebb3f5ad3bc915d448b') in 0.000742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002123 seconds.
+  path: Assets/GenboxAiSDK/Runtime/DisabledColor.cs
+  artifactKey: Guid(7fd34cb3c86cfe14380d449363cfbe3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/DisabledColor.cs using Guid(7fd34cb3c86cfe14380d449363cfbe3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e2d64f5d3c1de23fb67cd4855e4d0b') in 0.000523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002116 seconds.
+  path: Assets/GenboxAiSDK/Runtime/DpiFixer.cs
+  artifactKey: Guid(c56b4df00b941f3429d09d6a9e3ab423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/DpiFixer.cs using Guid(c56b4df00b941f3429d09d6a9e3ab423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e6beef5e7f03f0185ebd6107eebe7e') in 0.000681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001884 seconds.
+  path: Assets/GenboxAiSDK/Runtime/DynamicMaterial.cs
+  artifactKey: Guid(5e5bed69c2f411545abae6cce092d5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/DynamicMaterial.cs using Guid(5e5bed69c2f411545abae6cce092d5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f3ffbd783fcd6134ebbe08fa4ea8e5') in 0.000541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002305 seconds.
+  path: Assets/GenboxAiSDK/Runtime/HDRPDemoVolume.cs
+  artifactKey: Guid(b92b97085f4cc884eaab78a8f1617cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/HDRPDemoVolume.cs using Guid(b92b97085f4cc884eaab78a8f1617cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077478071846ff3b9a6f98e72d47356a') in 0.000571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002182 seconds.
+  path: Assets/GenboxAiSDK/Runtime/Hoverable.cs
+  artifactKey: Guid(2c72cb39662ae9e4892627bc1e6ab253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/Hoverable.cs using Guid(2c72cb39662ae9e4892627bc1e6ab253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9856b6cdad467fb17d3b091d04f45794') in 0.000563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001895 seconds.
+  path: Assets/GenboxAiSDK/Runtime/InputFieldResizer.cs
+  artifactKey: Guid(43f114b49f132c9419cdf6b62cca75e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/InputFieldResizer.cs using Guid(43f114b49f132c9419cdf6b62cca75e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa530e1468c9524cb926069286780f2') in 0.000606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002329 seconds.
+  path: Assets/GenboxAiSDK/Runtime/JsonFields.cs
+  artifactKey: Guid(44bd2df882c607545b99b819edac6fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/JsonFields.cs using Guid(44bd2df882c607545b99b819edac6fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81770e917ddf48f84b317458226b1b75') in 0.000663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002081 seconds.
+  path: Assets/GenboxAiSDK/Runtime/MultiToggle.cs
+  artifactKey: Guid(d48b57b37f4fe974f99a854b145ffe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/MultiToggle.cs using Guid(d48b57b37f4fe974f99a854b145ffe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934e1ee8faab82baa69271f65443089e') in 0.000642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002018 seconds.
+  path: Assets/GenboxAiSDK/Runtime/OpenHyperlink.cs
+  artifactKey: Guid(4fc21a438ac1454a9b432c5b5fb1e87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/OpenHyperlink.cs using Guid(4fc21a438ac1454a9b432c5b5fb1e87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55ac0006b409566c2a0659f25f60002') in 0.000570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001808 seconds.
+  path: Assets/GenboxAiSDK/Runtime/PanoramicToCubemap.cs
+  artifactKey: Guid(b85a42ccf66526a429ca45633c7a35a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/PanoramicToCubemap.cs using Guid(b85a42ccf66526a429ca45633c7a35a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd849440ed75eb3670013bcab0137e4a1') in 0.000587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001927 seconds.
+  path: Assets/GenboxAiSDK/Runtime/PopupButton.cs
+  artifactKey: Guid(c38b4f80f9100fa4c95c75e4766a975e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/PopupButton.cs using Guid(c38b4f80f9100fa4c95c75e4766a975e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe7ab9f2491ef4acb3208905cef1e92') in 0.000558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002629 seconds.
+  path: Assets/GenboxAiSDK/Runtime/RuntimeGuiManager.cs
+  artifactKey: Guid(0d8573010e2c4ebdba1f53f8c45ef701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/RuntimeGuiManager.cs using Guid(0d8573010e2c4ebdba1f53f8c45ef701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346a520bdc95f80ceba9bd6455eac34f') in 0.000674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006012 seconds.
+  path: Assets/GenboxAiSDK/Runtime/SkyboxGenerator.cs
+  artifactKey: Guid(80c37ee5440861a47884a14ba990aa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/SkyboxGenerator.cs using Guid(80c37ee5440861a47884a14ba990aa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5990ad3a39b738e6e154b7d80a001d') in 0.001209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001105 seconds.
+  path: Assets/GenboxAiSDK/Runtime/SkyboxMesh.cs
+  artifactKey: Guid(86b6b12deafaac649a9cb00122bc91dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/SkyboxMesh.cs using Guid(86b6b12deafaac649a9cb00122bc91dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2c054aafd1c74b054ad7850846f6c4') in 0.000642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001965 seconds.
+  path: Assets/GenboxAiSDK/Runtime/StyleItem.cs
+  artifactKey: Guid(af4594fe9de3ef342b8287a2faeefe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/StyleItem.cs using Guid(af4594fe9de3ef342b8287a2faeefe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1b0831df9cbc12e1b51278cd94bd8d') in 0.000750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002123 seconds.
+  path: Assets/GenboxAiSDK/Runtime/StylePickerPanel.cs
+  artifactKey: Guid(f3def905579525e4ca5a4863fcf658b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/StylePickerPanel.cs using Guid(f3def905579525e4ca5a4863fcf658b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd1dcab127ff7df29bae7769ab348b8') in 0.000665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002361 seconds.
+  path: Assets/GenboxAiSDK/Runtime/TetrahedronMesh.cs
+  artifactKey: Guid(3a885dc6cb55c4c45aff4cd20b019cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/TetrahedronMesh.cs using Guid(3a885dc6cb55c4c45aff4cd20b019cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b043c42f802719649e15e1e4c4a8b9') in 0.000734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002127 seconds.
+  path: Assets/GenboxAiSDK/Runtime/UnityWebRequestAwaiter.cs
+  artifactKey: Guid(3d300bec0afbcbe46ab7ce456e2676fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Runtime/UnityWebRequestAwaiter.cs using Guid(3d300bec0afbcbe46ab7ce456e2676fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c05ad05328830869dc97f306a4f13b0') in 0.000723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005214 seconds.
+  path: Assets/GenboxAiSDK/Scenes/SkyboxScene.unity
+  artifactKey: Guid(d9b6ab5207db7f8438e56b4c66ea03aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Scenes/SkyboxScene.unity using Guid(d9b6ab5207db7f8438e56b4c66ea03aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6743ee0a82602ba696d992a1580a56') in 0.000645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005019 seconds.
+  path: Assets/GenboxAiSDK/Shaders/Blockade Skybox Depth.shader
+  artifactKey: Guid(4ce4c0666f071e1478d991d550d73d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Shaders/Blockade Skybox Depth.shader using Guid(4ce4c0666f071e1478d991d550d73d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7831133f388bebb76ed4524ffdafe0a8') in 0.014635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/GenboxAiSDK/Shaders/PanoramicToCubemap.compute
+  artifactKey: Guid(88116db5d6db25542b83a839d6332779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Shaders/PanoramicToCubemap.compute using Guid(88116db5d6db25542b83a839d6332779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f959eafbface609826c943dee6709a67') in 0.001396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GenboxAiSDK/Shaders
+  artifactKey: Guid(209876677b7c2cf488a1b27f8a591b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenboxAiSDK/Shaders using Guid(209876677b7c2cf488a1b27f8a591b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd435407bd73177d7d5063039b90ef4bb') in 0.000754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
