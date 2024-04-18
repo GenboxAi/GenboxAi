@@ -55,6 +55,7 @@ This package requires the **Newtonsoft.Json** library for advanced JSON features
 1. Open your Unity project.
 2. Go to **Packages** > **Manage Packages**.
 3. In the search bar, type "Newtonsoft.Json" and select the appropriate package version.
+  Or by entering package name (Click on the "+" button. Select "Update package by name..." and enter  "com.unity.nuget.newtonsoft-json")
 4. Click **Install**.
 
 The scene contains two notable gameObjects:
