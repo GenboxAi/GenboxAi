@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.24652871, g: 0.2825567, b: 0.2816437, a: 1}
+  m_IndirectSpecularColor: {r: 0.24652904, g: 0.28255683, b: 0.2816438, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -19250,7 +19250,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <font-weight="500">Skybox AI by Blockade Labs</font-weight>
+  m_text: <font-weight="500">Skybox AI by Genbox Ai</font-weight>
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b3bd6c68239f4e743aaae6ab0ff401a5, type: 2}
   m_sharedMaterial: {fileID: -1966353908474157421, guid: b3bd6c68239f4e743aaae6ab0ff401a5, type: 2}
